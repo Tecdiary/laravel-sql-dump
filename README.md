@@ -1,10 +1,9 @@
 # Dump Laravel Migrations to SQL File
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tecdiary/laravel-sql-dump.svg?style=flat-square)](https://packagist.org/packages/tecdiary/laravel-sql-dump)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/tecdiary/laravel-sql-dump/run-tests?label=tests)](https://github.com/tecdiary/laravel-sql-dump/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/tecdiary/laravel-sql-dump.svg?style=flat-square)](https://packagist.org/packages/tecdiary/laravel-sql-dump)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This package reads your laravel migrations and dump them to the sql file.
 
 ## Installation
 
