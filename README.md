@@ -33,7 +33,11 @@ return [
 ## Usage
 
 ```php
-php artisan migrate:dump
+php artisan migrate:dump      // On query per line - no formatting
+
+php artisan migrate:dump --format   // -F|--format > Format queries before saving to file
+
+php artisan migrate:dump --format --path=path/to/the/migrations/folder   // -P|--path => Set the migrations path if it's not default
 ```
 
 ## Testing
